@@ -1,17 +1,16 @@
-const form = document.getElementById("form");
-const form1 = document.getElementById("form1");
+let form0 = document.getElementById("form");
+let form1 = document.getElementById("form1");
 
-form.addEventListener("submit", (event) => {
+form0.addEventListener("submit", (event) => {
   event.preventDefault();
 });
 form1.addEventListener("submit", (event) => {
   event.preventDefault();
 });
 //emergency alert
-const emr = document.getElementById("emergency");
-emr.addEventListener("click", () => {
+const Alert = () => {
   alert("Emergency Alert has been sent to near by hospitals");
-});
+};
 
 //BMI calculator
 function calculate() {
