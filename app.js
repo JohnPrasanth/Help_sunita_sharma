@@ -8,7 +8,7 @@ form1.addEventListener("submit", (event) => {
   event.preventDefault();
 });
 //emergency alert
-const emr = document.getElementById("Emergency");
+const emr = document.getElementById("emergency");
 emr.addEventListener("click", () => {
   alert("Emergency Alert has been sent to near by hospitals");
 });
