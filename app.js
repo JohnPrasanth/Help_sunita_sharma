@@ -3,9 +3,11 @@ let form1 = document.getElementById("form1");
 
 form0.addEventListener("submit", (event) => {
   event.preventDefault();
+  alert("Order placed Successfully");
 });
 form1.addEventListener("submit", (event) => {
   event.preventDefault();
+  alert("Appointment Booked Successfully ");
 });
 //emergency alert
 const Alert = () => {

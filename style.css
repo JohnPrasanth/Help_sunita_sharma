@@ -54,7 +54,7 @@ nav {
   max-width: 250px;
   min-width: 30%;
   flex-shrink: 0;
-  max-height: 70%;
+  max-height: 50%;
   flex-grow: 0;
 }
 
@@ -66,6 +66,7 @@ nav {
   color: white;
   font-size: 20px;
   padding: 10px;
+  overflow: hidden;
 }
 
 .left-body ul li {
@@ -387,9 +388,6 @@ button:hover {
   .font-clr {
     border-width: 0;
   }
-}
-
-@media (max-width: 700px) {
   .body {
     flex-direction: column;
     overflow: auto;
@@ -397,7 +395,7 @@ button:hover {
   }
 
   .top-section {
-    background-image: url("https://thumbs.dreamstime.com/b/nurse-delivering-groceries-to-senior-woman-vertical-full-length-portrait-female-caregiver-bringing-233611958.jpg");
+    background-image: url("https://images.pexels.com/photos/5215024/pexels-photo-5215024.jpeg?auto=compress&cs=tinysrgb&w=1600");
   }
 
   .left-body {
