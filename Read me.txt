@@ -14,7 +14,7 @@ The working prototype for this idea could be a responsive web application that h
 
 6. ONE-TAP EMERGENCY: By employing this a notification is sent to near by hospitals alerting about the patient by using device location. this feature is much helpful in case of emergency because user dosen't have to fill any details.(if user is a member)
 
-
+7.Contrast colors are used for better visibility.
 
 
 note : this web site is adaptable to mobile devices, desktops and also laptops screens .
